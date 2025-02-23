@@ -21,3 +21,19 @@ const appConfig = (function () {
 
 console.log(appConfig.getApiKey());
 console.log(appConfig.getApiURL());
+
+// contoh lain dari IIFE
+const auth = (function () {
+  const username = "budi";
+  const password = "naruto";
+  return {
+    getUsername: function () {
+      return username;
+    },
+    getPassword: function () {
+      return password;
+    },
+  };
+})();
+console.log(auth.getUsername());
+console.log(auth.getPassword());
