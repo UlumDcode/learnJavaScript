@@ -26,7 +26,7 @@ console.log(fruits);
 
 let numbers = [1, 2, 3];
 console.log(numbers.push(4, 5)); //memasukan nilai kedalam array
-console.log(numbers.pop()); //menghapus nilai terakhir
+console.log(numbers.pop()); //melihat nilai terakhir
 console.log(numbers.shift()); //menghapus nilai pertama
 console.log(numbers.unshift(5)); // menambah nilai pertama
 console.log(numbers.length); //melihat banyaknya index di array
