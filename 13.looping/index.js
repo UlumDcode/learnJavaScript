@@ -45,8 +45,8 @@ do {
 const object = { nama: "ranggo", umur: 26 };
 
 for (let property in object) {
-  console.log(property);
-  console.log(object[property]);
+  console.log(property); //mendapatkan properti dari obect
+  console.log(object[property]); //menddaatkan nilai dari properti object
 }
 
 // For-Of Loop
