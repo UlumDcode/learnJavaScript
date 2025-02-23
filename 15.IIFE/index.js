@@ -5,6 +5,10 @@
   console.log("IIFE di panggil");
 })();
 
+/** Struktur IIFE */
+// (function () {
+//  return
+// })();
 const appConfig = (function () {
   const apiKey = "1234";
   const apiURL = "https://api.example.com";
